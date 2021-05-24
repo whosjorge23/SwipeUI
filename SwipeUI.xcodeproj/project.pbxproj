@@ -3,23 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1DBD272657BD7F00E7BEB2 /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = ED1DBD262657BD7F00E7BEB2 /* SwiftHEXColors */; };
+		ED6C40A72658294700E9EF9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C40A62658294700E9EF9A /* HomeView.swift */; };
 		ED7A38A62656BBBD00597498 /* SwipeUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A38A52656BBBD00597498 /* SwipeUIApp.swift */; };
 		ED7A38A82656BBBD00597498 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A38A72656BBBD00597498 /* ContentView.swift */; };
 		ED7A38AA2656BBC000597498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7A38A92656BBC000597498 /* Assets.xcassets */; };
 		ED7A38AD2656BBC000597498 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7A38AC2656BBC000597498 /* Preview Assets.xcassets */; };
+		ED7A38B62656BC0400597498 /* OnBoardScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A38B52656BC0400597498 /* OnBoardScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED6C40A62658294700E9EF9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ED7A38A22656BBBC00597498 /* SwipeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7A38A52656BBBD00597498 /* SwipeUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeUIApp.swift; sourceTree = "<group>"; };
 		ED7A38A72656BBBD00597498 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED7A38A92656BBC000597498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED7A38AC2656BBC000597498 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED7A38AE2656BBC000597498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7A38B52656BC0400597498 /* OnBoardScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1DBD272657BD7F00E7BEB2 /* SwiftHEXColors in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +60,8 @@
 			children = (
 				ED7A38A52656BBBD00597498 /* SwipeUIApp.swift */,
 				ED7A38A72656BBBD00597498 /* ContentView.swift */,
+				ED6C40A62658294700E9EF9A /* HomeView.swift */,
+				ED7A38B52656BC0400597498 /* OnBoardScreenView.swift */,
 				ED7A38A92656BBC000597498 /* Assets.xcassets */,
 				ED7A38AE2656BBC000597498 /* Info.plist */,
 				ED7A38AB2656BBC000597498 /* Preview Content */,
@@ -85,6 +93,9 @@
 			dependencies = (
 			);
 			name = SwipeUI;
+			packageProductDependencies = (
+				ED1DBD262657BD7F00E7BEB2 /* SwiftHEXColors */,
+			);
 			productName = SwipeUI;
 			productReference = ED7A38A22656BBBC00597498 /* SwipeUI.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +123,9 @@
 				Base,
 			);
 			mainGroup = ED7A38992656BBBC00597498;
+			packageReferences = (
+				ED1DBD252657BD7F00E7BEB2 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */,
+			);
 			productRefGroup = ED7A38A32656BBBC00597498 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7A38A82656BBBD00597498 /* ContentView.swift in Sources */,
+				ED6C40A72658294700E9EF9A /* HomeView.swift in Sources */,
+				ED7A38B62656BC0400597498 /* OnBoardScreenView.swift in Sources */,
 				ED7A38A62656BBBD00597498 /* SwipeUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED1DBD252657BD7F00E7BEB2 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thii/SwiftHEXColors.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED1DBD262657BD7F00E7BEB2 /* SwiftHEXColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED1DBD252657BD7F00E7BEB2 /* XCRemoteSwiftPackageReference "SwiftHEXColors" */;
+			productName = SwiftHEXColors;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED7A389A2656BBBC00597498 /* Project object */;
 }

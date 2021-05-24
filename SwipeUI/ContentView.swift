@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var goToHome = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            if goToHome {
+                HomeView()
+            }else {
+                OnBoardScreenView()
+            }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: Notification.Name("Success")), perform: { _ in
+            withAnimation{ self.goToHome = true }
+        })
     }
 }
 
