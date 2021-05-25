@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED1DBD272657BD7F00E7BEB2 /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = ED1DBD262657BD7F00E7BEB2 /* SwiftHEXColors */; };
+		ED5B8156265BF6180038A85E /* ComplexHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B8155265BF6180038A85E /* ComplexHomeView.swift */; };
 		ED6C40A72658294700E9EF9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C40A62658294700E9EF9A /* HomeView.swift */; };
 		ED7A38A62656BBBD00597498 /* SwipeUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A38A52656BBBD00597498 /* SwipeUIApp.swift */; };
 		ED7A38A82656BBBD00597498 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7A38A72656BBBD00597498 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED5B8155265BF6180038A85E /* ComplexHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexHomeView.swift; sourceTree = "<group>"; };
 		ED6C40A62658294700E9EF9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ED7A38A22656BBBC00597498 /* SwipeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7A38A52656BBBD00597498 /* SwipeUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeUIApp.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				ED7A38A52656BBBD00597498 /* SwipeUIApp.swift */,
 				ED7A38A72656BBBD00597498 /* ContentView.swift */,
 				ED6C40A62658294700E9EF9A /* HomeView.swift */,
+				ED5B8155265BF6180038A85E /* ComplexHomeView.swift */,
 				ED7A38B52656BC0400597498 /* OnBoardScreenView.swift */,
 				ED7A38A92656BBC000597498 /* Assets.xcassets */,
 				ED7A38AE2656BBC000597498 /* Info.plist */,
@@ -154,6 +157,7 @@
 			files = (
 				ED7A38A82656BBBD00597498 /* ContentView.swift in Sources */,
 				ED6C40A72658294700E9EF9A /* HomeView.swift in Sources */,
+				ED5B8156265BF6180038A85E /* ComplexHomeView.swift in Sources */,
 				ED7A38B62656BC0400597498 /* OnBoardScreenView.swift in Sources */,
 				ED7A38A62656BBBD00597498 /* SwipeUIApp.swift in Sources */,
 			);

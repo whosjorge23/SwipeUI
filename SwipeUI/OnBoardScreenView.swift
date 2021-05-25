@@ -33,9 +33,10 @@ struct OnBoardScreenView: View {
                     .fontWeight(.semibold)
                     .foregroundColor(.white)
                     .padding()
+//                    .padding(.horizontal, 30)
                     .padding(.bottom)
                 
-                Image("slot")
+                Image("softbayx-swiftui")
                 
                 Spacer(minLength: 0)
                 
@@ -54,7 +55,7 @@ struct OnBoardScreenView: View {
                     
                     HStack(alignment: .center, spacing: nil, content: {
                         Capsule()
-                            .fill(Color(UIColor(hexString: "#D6C394")!))
+                            .fill(Color(UIColor(hexString: "#31A343")!))
                             .frame(width: calculateWidth() + 65)
                         Spacer(minLength: 0)
                     })
@@ -69,7 +70,7 @@ struct OnBoardScreenView: View {
                         .foregroundColor(.white)
                         .offset(x: 5)
                         .frame(width: 65, height: 65)
-                        .background(Color(UIColor(hexString: "#D6C394")!))
+                        .background(Color(UIColor(hexString: "#31A343")!))
                         .clipShape(Circle())
                         .offset(x: offset)
                         .gesture(DragGesture().onChanged(onChanged(value:)).onEnded(onEnd(value:)))
